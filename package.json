@@ -1,7 +1,7 @@
 {
   "name": "@rhao/gen-index",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "自动生成 index.* 文件。",
   "author": "RayHao <https://github.com/l246804>",
   "license": "MIT",
