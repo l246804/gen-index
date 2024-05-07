@@ -9,6 +9,11 @@ import pkg from './package.json'
 const esmExt = '.js'
 const cjsExt = '.cjs'
 
+// 代码压缩
+const minify = false
+// 代码树摇
+const treeshake = true
+
 // 输出目录
 const outDir = resolve(__dirname, 'dist')
 
@@ -46,10 +51,12 @@ export default defineConfig(() => {
   return {
     build: {
       outDir,
+      minify,
       lib: {
         entry: [entryFile, 'src/bin.ts'],
       },
       rollupOptions: {
+        treeshake,
         external: genExternals(),
         output: [genOutput('esm'), genOutput('cjs')],
       },
