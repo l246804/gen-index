@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/l246804/gen-index/compare/v0.2.0...v0.2.1) (2024-06-04)
+
+
+### Chores
+
+* 🤖 更改 hookable 为生产依赖 ([ba1792f](https://github.com/l246804/gen-index/commit/ba1792f990d10005431caa7b4a6f455dac46fe6d))
+
 ## [0.2.0](https://github.com/l246804/gen-index/compare/v0.1.0...v0.2.0) (2024-06-04)
 
 
