@@ -72,6 +72,7 @@
     "commitizen": "^4",
     "eslint": "^8",
     "git-cz": "^4",
+    "hookable": "^5.5.3",
     "husky": "^9",
     "nice-fns": "^1.4.1",
     "plop": "^4",
